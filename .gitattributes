@@ -18,7 +18,7 @@
 /autogen.sh -text
 /config.in -text
 /configure.ac -text
-/es-ro.prob -text
+/es-ro.prob -text svneol=unset#unset
 /install-sh -text
 /missing -text
 /modes.xml -text
