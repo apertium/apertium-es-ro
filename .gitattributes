@@ -13,6 +13,7 @@
 /apertium-es-ro.post-ro.dix -text
 /apertium-es-ro.ro.dix -text
 /apertium-es-ro.ro.tsx -text
+/apertium-es-ro.translit.dix -text
 /apertium-es-ro.trules-es-ro.xml -text
 /apertium-es-ro.trules-ro-es.xml -text
 /autogen.sh -text
