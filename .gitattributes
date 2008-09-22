@@ -7,6 +7,9 @@
 /NEWS -text
 /README -text
 /apertium-es-ro.es-ro.dix -text
+/apertium-es-ro.es-ro.t1x -text
+/apertium-es-ro.es-ro.t2x -text
+/apertium-es-ro.es-ro.t3x -text
 /apertium-es-ro.es.dix -text
 /apertium-es-ro.es.tsx -text
 /apertium-es-ro.post-es.dix -text
