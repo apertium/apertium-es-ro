@@ -20,7 +20,6 @@
 /apertium-es-ro.ro.tsx -text
 /apertium-es-ro.trules-ro-es.xml -text
 /autogen.sh -text
-/config.in -text
 /configure.ac -text
 /es-ro.prob -text svneol=unset#unset
 /install-sh -text
