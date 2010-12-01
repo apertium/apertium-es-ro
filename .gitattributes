@@ -25,5 +25,6 @@
 /install-sh -text
 /missing -text
 /modes.xml -text
+/papelera-de-reglas.txt -text
 /regression-tests.sh -text
 /ro-es.prob -text
