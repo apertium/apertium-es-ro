@@ -27,4 +27,5 @@
 /modes.xml -text
 /papelera-de-reglas.txt -text
 /regression-tests.sh -text
+/ro-es-unsupervised.make -text
 /ro-es.prob -text
