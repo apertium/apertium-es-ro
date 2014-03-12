@@ -48,20 +48,23 @@ $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t1x $@
+	apertium-compile-transfer -i $(BASENAME).$(PREFIX1).t1x -o $(PREFIX1).t1x.vm
 
 $(PREFIX1).t2x.bin: $(BASENAME).$(PREFIX1).t2x
 	apertium-validate-interchunk $(BASENAME).$(PREFIX1).t2x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t2x $@
+	apertium-compile-transfer -i $(BASENAME).$(PREFIX1).t2x -o $(PREFIX1).t2x.vm
 
 $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-validate-postchunk $(BASENAME).$(PREFIX1).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t3x $@
+	apertium-compile-transfer -i $(BASENAME).$(PREFIX1).t3x -o $(PREFIX1).t3x.vm
 
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
-	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x \
-	                             $(PREFIX2).t1x.bin
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $(PREFIX2).t1x.bin
+	apertium-compile-transfer -i $(BASENAME).$(PREFIX2).t1x -o $(PREFIX2).t1x.vm
 
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
