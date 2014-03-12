@@ -21,11 +21,11 @@
 /apertium-es-ro.ro.tsx -text
 /autogen.sh -text
 /configure.ac -text
+dev/papelera-de-reglas.txt -text
 /es-ro.prob -text svneol=unset#unset
 /install-sh -text
 /missing -text
 /modes.xml -text
-/papelera-de-reglas.txt -text
 /regression-tests.sh -text
 /ro-es-unsupervised.make -text
 /ro-es.prob -text
