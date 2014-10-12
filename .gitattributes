@@ -2,7 +2,6 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
-/INSTALL -text
 /Makefile.am -text
 /NEWS -text
 /README -text
@@ -22,8 +21,6 @@
 /autogen.sh -text
 /configure.ac -text
 /es-ro.prob -text svneol=unset#unset
-/install-sh -text
-/missing -text
 /modes.xml -text
 /papelera-de-reglas.txt -text
 /regression-tests.sh -text
