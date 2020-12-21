@@ -1,17 +1,11 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-es-ro], [0.7.3], [sortiz@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-es-ro], [0.7.3], no-define)
-AC_PROG_LN_S
+AC_INIT([apertium-es-ro], [0.7.4], [apertium-stuff@lists.sourceforge.net])
+AM_INIT_AUTOMAKE
 AC_PROG_AWK
-AC_CONFIG_HEADER([config])
 
-m4_define([required_apertium_version], [3.2.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.7.0)
 
-  
+AP_MKINCLUDE
+
 AC_OUTPUT([Makefile])
