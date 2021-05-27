@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LIST=`wget -O - -q http://wiki.apertium.org/wiki/Traductor_rumano-español/Pruebas_de_regresión | grep '<li>' | sed 's/<.*li>//g' | sed 's/ /_/g'`;
+LIST=`wget -O - -q https://wiki.apertium.org/wiki/Traductor_rumano-español/Pruebas_de_regresión | grep '<li>' | sed 's/<.*li>//g' | sed 's/ /_/g'`;
 
 cp *.mode modes/
 
